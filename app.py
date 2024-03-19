@@ -21,4 +21,7 @@ if hist_button: # al hacer clic en el botón
     if dis_button: #al hacer clic en el botón # Para hacer otro botón
         # escribir un mensaje
         st.write('Creación de un gráfico de dispersión')
-        
+
+        fig = px.scatter(car_data, x="odometer", y="price") # crear un gráfico de dispersión
+
+        fig.show() # crear gráfico de dispersión
