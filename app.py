@@ -27,4 +27,4 @@ if dis_button: #al hacer clic en el botón # Para hacer otro botón
 
     st.plotly_chart(fig) #crear gráfico de dispersión
 
-
+    
